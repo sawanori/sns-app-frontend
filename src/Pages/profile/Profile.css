@@ -1,0 +1,44 @@
+.Profile {
+    display: flex;
+}
+
+.profileRight {
+    flex: 10.5;
+}
+
+.profileCover {
+    height: 320;
+    position: relative;
+}
+
+.profileCoverImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.ProfileUserImg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    top: 150px;
+
+}
+
+.ProfileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ProfileInfoName {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,125 @@
+.rightbar {
+  flex: 3.5;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.eventContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.starImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.eventText {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.eventImg {
+  width: 100%;
+  border-radius: 10px;
+  margin: 25 0;
+}
+
+.rightbarTitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.rightbarInfoKey {
+  font-weight: 500px;
+  margin-right: 5px;
+  color: #555;
+  flex: wrap;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.rightbarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rightbarProfileImContainer {
+  position: relative;
+  margin-right: 10px;
+}
+
+.rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightbarUsername {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.rightbarOnline {
+  background-color: blueviolet;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.promotionTitle {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: -10px;
+}
+
+.rightbarPromotionImg {
+  width: 85%;
+  border-radius: 10px;
+  margin: 25 0;
+}
+
+.promotionName {
+  font-size: 15px;
+  color: azure;
+  margin-top: -20px;
+}
